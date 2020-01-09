@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Ralf Pacher   Exercise 04   -   u4_date2
-
 int main() {
     int day, month, year;
 
