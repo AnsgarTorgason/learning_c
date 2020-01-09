@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 int i,days,start;
-
+ 
 int main()
 {
-scanf("%d %d",&days,&start);  //31, 30 or 28 days  and when is the 1st day(Monday = 1, Tuesday = 2, ...)
+scanf("%d %d",&days,&start);
 
 for(i = 0 ; i < start ; i++ ){printf("   ");}  // three times empty space
  
@@ -17,7 +17,8 @@ for(i = 1; i <= days ; start++, i++)
             {       
             printf("\n");
             }
-
+            
+    printf("%3d", i);
     }
     return 0;
 }
